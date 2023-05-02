@@ -1,3 +1,70 @@
-h1 {
-  color: aqua;
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+@media screen and (max-width: 375px) {
+  .section_1 {
+    background-image: url(images/mobile-hearder_background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 180vh;
+    border-radius: 50px;
+  }
+
+  .container {
+    display: flex;
+    height: 180vh;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+  }
+
+  .container > * {
+    flex: 1 1 auto;
+  }
+
+  .app-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .connect {
+    color: rgba(127, 140, 255, 1);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .social_media1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .social_media1 a {
+    padding-right: 10px;
+  }
+
+  .greatting {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #172b4d;
+  }
+
+  .section_1 p {
+    Font-family:'Poppins',  sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+  }
 }
