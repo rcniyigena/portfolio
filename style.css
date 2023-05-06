@@ -56,6 +56,13 @@
     padding-right: 10px;
   }
 
+  .social {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+  }
+
   .greatting {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -80,11 +87,14 @@
     margin-bottom: -40px;
   }
 
-  /* Working on second phase */
-  .section_2 {
+  .main_container {
     display: grid;
     grid-template-rows: auto auto auto auto;
-    grid-gap: 10px;
+  }
+
+  .section_2 {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 16px;
     gap: 12px;
@@ -98,7 +108,6 @@
   }
 
   .section_2 h2 {
-    /* width: 295px; */
     height: 36px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -115,15 +124,10 @@
     align-items: flex-start;
     padding: 0;
     gap: 12px;
-
-    /* width: 295px;
-    height: 80px; */
   }
 
   .tonic_image_1 img {
     width: 100%;
-
-    /* height: 220px; */
   }
 
   .tonic_div ul {
@@ -168,7 +172,7 @@
     border-radius: 8px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
@@ -184,7 +188,6 @@
     flex-direction: row;
     align-items: center;
     padding: 0;
-    gap: 10px;
   }
 
   .view_button button {
@@ -196,6 +199,8 @@
     color: #396df2;
     text-align: center;
     letter-spacing: 0.03em;
+    font-weight: bold;
+    background: none;
   }
 
   .about_section {
@@ -204,8 +209,6 @@
     margin-top: 114px;
     background: #fff;
     border-top-right-radius: 100px 60px;
-
-    /* transform: rotate(180deg); */
     justify-content: space-between;
     padding: 24px;
   }
@@ -240,11 +243,15 @@
   .about_social {
     display: flex;
     gap: 20px;
+    list-style-type: none;
+    padding: 0;
   }
 
   .language {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    list-style: none;
   }
 
   .language img {
@@ -253,8 +260,6 @@
     top: 37.5%;
     bottom: 37.5%;
     height: 10px;
-
-    /* border: 2px solid #ACB7C3; */
   }
 
   .contact_section {
@@ -277,8 +282,6 @@
 
   .contact_section h2 {
     margin-top: 103px;
-
-    /* padding: 24px; */
     color: #fff;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -291,6 +294,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    list-style: none;
   }
 
   .languages button {
@@ -302,6 +306,9 @@
     align-items: center;
     gap: 16px;
     border: none;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
   }
 
   .languages button img {
@@ -358,12 +365,15 @@
     background: #fff;
     border-radius: 8px;
     border: none;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
   }
 
   .contact_section form button span {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 17px;
     line-height: 24px;
     color: #6070ff;
@@ -373,13 +383,13 @@
     padding: 24px;
   }
 
-  .hr_line {
+  .end_line {
     position: absolute;
     width: 134px;
     height: 5px;
-    left: calc(50% - 134px / 2 - 0.5px);
-    bottom: 8px;
     background: #0d151e;
     border-radius: 10px;
+    margin-top: 766px;
+    left: calc(50% - 134px / 2 - 0.5px);
   }
 }
