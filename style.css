@@ -351,6 +351,14 @@
     padding: 0;
   }
 
+  .app-header img {
+    animation: mymove 5s 2;
+  }
+
+  @keyframes mymove {
+    to { transform: rotate(3.142rad); }
+  }
+
   .languages button img {
     width: 48px;
     height: 48px;
@@ -420,23 +428,11 @@
     left: calc(50% - 134px / 2 - 0.5px);
   }
 
-  .tonic_image_1 img:hover {
-    transform: scale(1.2); 
-  }
-
-  .app-header img {
-
-    animation: mymove 5s 2;
-
-  }
-
-  @keyframes mymove {
-
-    to{transform: rotate(3.142rad);}
-  }
-
   .contact_section p:hover {
     transform: translate(12px, 8px);
+  }
 
+  .tonic_image_1 img:hover {
+    transform: scale(1.2);
   }
 }
