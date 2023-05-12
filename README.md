@@ -47,11 +47,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Html]**
-- **[Css(FelexBox)]**
+- **[HTML]**
+- **[CSS(FlexBox)]**
 - **[Linters for html and css]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,7 +97,7 @@ Example command:
 
 ```sh
   npx hint .
-  npx stylelint "**/*.{css/scss}"
+  npx stylelint "**/*.{css,scss}"
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -150,8 +148,6 @@ If you like this project feel free to contact me through my social media I share
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse for their support.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
