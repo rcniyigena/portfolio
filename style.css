@@ -461,6 +461,7 @@
     left: 0;
     top: 1px;
     background: #e5e5e5;
+    overflow-x: hidden;
   }
 
   .app-header {
@@ -469,10 +470,8 @@
     text-align: center;
     justify-content: space-between;
     position: absolute;
-    width: 1397px;
+    width: 1440px;
     height: 72px;
-    left: 34.6px;
-    margin-right: 34.6px;
     top: 0;
     background: #fff;
     margin-top: -68px;
@@ -481,15 +480,11 @@
   .section_1 {
     background-image: url(images/desktop_view.jpg);
     background-repeat: no-repeat;
-    background-size: 1397.4px 721.46px;
-
-    /* position: absolute; */
-    width: 1397.4px;
+    background-size: 1440px 721.46px;
+    width: 1440px;
     height: 721.46px;
-    left: 34.6px;
-    top: 70px;
+    left: 0;
     border-bottom-left-radius: 100px 60px;
-    margin-left: 34.5px;
     margin-top: 80px;
   }
 
@@ -539,7 +534,33 @@
     width: 920px;
     height: 268px;
     left: 260px;
-    margin-top: 250px;
+    margin-top: 170px;
+  }
+
+  .greatting {
+    width: 920px;
+    height: 122px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.37px;
+    color: #091e42;
+  }
+
+  .section_1_text p {
+    width: 920px;
+    height: 98px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+    margin-top: -30px;
   }
 
   .social_media1 {
@@ -550,7 +571,7 @@
     height: 20px;
     left: 260px;
     top: 642px;
-    margin-top: -170px;
+    margin-top: -200px;
   }
 
   .connect {
@@ -868,6 +889,7 @@
     font-size: 40px;
     line-height: 52px;
     color: #fff;
+    margin-top: 142px;
   }
 
   .desktop_contact_section p {
@@ -885,6 +907,7 @@
   .desktop_contact_section form {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 0;
     gap: 27px;
     width: 447px;
